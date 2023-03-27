@@ -1,0 +1,33 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products-container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    .shop-container {
+        grid-template-columns: 4fr 1fr;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .shop-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
