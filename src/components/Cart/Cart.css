@@ -4,3 +4,23 @@
     position: sticky;
     top: 0;
 }
+
+.removeItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f84b0c;
+    color: wheat;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.removeItems:hover{
+    background-color: #b62107;
+    color: #FFF;
+}
+
+.removeIcon{
+    color: wheat;
+    font-size: 25px;
+}
