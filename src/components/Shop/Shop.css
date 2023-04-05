@@ -10,6 +10,12 @@
     gap: 45px;
 }
 
+.btn-proceed {
+    
+    background: #FF9900;
+    border-radius: 4px;
+}
+
 @media only screen and (max-width: 992px) and (min-width: 769px) {
     .shop-container {
         grid-template-columns: 4fr 1fr;
